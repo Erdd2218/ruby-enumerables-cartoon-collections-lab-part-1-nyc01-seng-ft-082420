@@ -10,6 +10,6 @@ def list_dwarves(array)
   
   
   array.each_with_index { |num|  puts "#{i}. #{num}"}
-  i ++
+  i += 1
   # Print a numbered list of each element
 end
